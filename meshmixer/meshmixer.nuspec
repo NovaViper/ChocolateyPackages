@@ -4,12 +4,13 @@
   <metadata>
     <id>meshmixer</id>
     <version>3.5</version>
-    <packageSourceUrl>https://github.com/NovaViper/ChocolateyPackages/meshmixer</packageSourceUrl>
+    <packageSourceUrl>https://github.com/NovaViper/ChocolateyPackages/tree/master/meshmixer</packageSourceUrl>
 
     <title>Meshmixer (Install)</title>
     <authors>Autodesk Inc</authors>
-    <projectUrl>https://www.meshmixer.com/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/meshmixer/icons/meshmixer.png</iconUrl>
+	<owners>NovaViper</owners>
+    <projectUrl>http://www.meshmixer.com/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/NovaViper/ChocolateyPackages/e638836a026030ab84fffef8cd1253bca2bbb9dc/icons/meshmixer.png</iconUrl>
     <!-- <copyright></copyright> -->
     <licenseUrl>https://www.autodesk.com/company/terms-of-use/en/general-terms</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -42,9 +43,9 @@
 # Notes
 This package will install in the default Windows program directory, and not in Chocolatey's custom program location! And it only supports 64bit processors!</description>
     <releaseNotes>http://www.meshmixer.com/download.html</releaseNotes>
-    <dependencies>
+    <!--<dependencies>
       <dependency id="chocolatey" version="0.9.10.3" />
-    </dependencies>
+    </dependencies>-->
 
   </metadata>
   <files>
